@@ -101,9 +101,16 @@ The broader local development tree also validated:
 - non-block-aligned tails such as `QO=17, KV=19`
 - long sequence smoke test such as `NHD (1, 10000, 1, 64)`
 
-## Upstream
+## Acknowledgements
 
-Based on SageAttention2 from the SageAttention project, with a minimal AMD/HIP57
-Triton compatibility path adapted for this environment.
+This project is based on [thu-ml/sageattention](https://github.com/thu-ml/sageattention).
+Thanks to the SageAttention authors for the original SageAttention2
+implementation and Apache 2.0 release.
 
-SageAttention is licensed under the Apache License 2.0. See `LICENSE`.
+This repository only carries a minimal AMD/HIP57 Triton compatibility path
+adapted for the Radeon 780M environment described above.
+
+## License
+
+This project is released under the Apache License 2.0, following the upstream
+SageAttention license. See `LICENSE`.
